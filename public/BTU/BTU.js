@@ -13,7 +13,7 @@ calc(){
      p = (this.pessoas-1)*600
          
     }
-    return (this.area*600+p+this.eletron*600)
+    return (this.area*600+p+this.eletron*600).toLocaleString('pt-BR')
     }}
  function calculo(){
      let btu = new BTUS(
